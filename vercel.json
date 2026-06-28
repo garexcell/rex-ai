@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/sso/:path*",
+      "destination": "https://sso.garexcell.com/auth/fsmec/:path*"
+    }
+  ]
+}
